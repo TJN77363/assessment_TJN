@@ -8,6 +8,7 @@ namespace GrossPay
         static void Main()
         {
             Console.WriteLine("Employee Basic Salary: ");
+            Console.Write("RM ");
             int BasicPay = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Employee Overtime Hours: ");
             int OverTimeHours = Convert.ToInt32(Console.ReadLine());
@@ -19,7 +20,7 @@ namespace GrossPay
             else
             {
                 Console.WriteLine("The employee salary pay: ");
-                Console.WriteLine(BasicPay + (OverTimeHours * OverTimeRate));
+                Console.WriteLine("RM" + (BasicPay + (OverTimeHours * OverTimeRate)));
             }
         }
     }
