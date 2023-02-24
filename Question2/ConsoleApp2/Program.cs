@@ -19,29 +19,29 @@ namespace TelephoneCharge
             if (LocalCall > 100)
             {
                 Console.WriteLine("First 100 local call charge: ");
-                Console.WriteLine(FirstHundredCalls);
+                Console.WriteLine("RM" + FirstHundredCalls);
                 SubsequentCharges = (LocalCall - 100) * SubsequentCalls;
                 Console.WriteLine("Subsequent calls charge: ");
-                Console.WriteLine(SubsequentCharges);
+                Console.WriteLine("RM" + SubsequentCharges);
                 Console.WriteLine("Total charge of local call: ");
                 LocalCallTotalCharge = SubsequentCharges + FirstHundredCalls;
-                Console.WriteLine(LocalCallTotalCharge);
+                Console.WriteLine("RM" + LocalCallTotalCharge);
 
             }
             else
             {
                 Console.WriteLine("Total charge of local call: ");
                 LocalCallTotalCharge = FirstHundredCalls;
-                Console.WriteLine(LocalCallTotalCharge);
+                Console.WriteLine("RM" + LocalCallTotalCharge);
             }
 
             Console.WriteLine("The number of outstation calls: ");
             int NoOfOutstationCalls = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Total charge of outstation call: ");
             OutstationCallTotalCharge = NoOfOutstationCalls * OutstationCallsCharges;
-            Console.WriteLine(OutstationCallTotalCharge);
+            Console.WriteLine("RM" + OutstationCallTotalCharge);
             Console.WriteLine("Grant total:");
-            Console.WriteLine(LocalCallTotalCharge + OutstationCallTotalCharge);
+            Console.WriteLine("RM" + (LocalCallTotalCharge + OutstationCallTotalCharge));
         }
     }
 }
