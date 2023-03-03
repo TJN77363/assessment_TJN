@@ -3,7 +3,7 @@ using System.Xml.Schema;
 
 namespace TelephoneCharge
 {
-    public class GrossPay
+    public class TelephoneCharge
     {
         static void Main()
         {
