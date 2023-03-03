@@ -1,0 +1,15 @@
+C:\Users\Admin\Downloads\TelephoneCharges\bin\Debug\net7.0\TelephoneCharges.exe
+C:\Users\Admin\Downloads\TelephoneCharges\bin\Debug\net7.0\TelephoneCharges.deps.json
+C:\Users\Admin\Downloads\TelephoneCharges\bin\Debug\net7.0\TelephoneCharges.runtimeconfig.json
+C:\Users\Admin\Downloads\TelephoneCharges\bin\Debug\net7.0\TelephoneCharges.dll
+C:\Users\Admin\Downloads\TelephoneCharges\bin\Debug\net7.0\TelephoneCharges.pdb
+C:\Users\Admin\Downloads\TelephoneCharges\obj\Debug\net7.0\TelephoneCharges.csproj.AssemblyReference.cache
+C:\Users\Admin\Downloads\TelephoneCharges\obj\Debug\net7.0\TelephoneCharges.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Downloads\TelephoneCharges\obj\Debug\net7.0\TelephoneCharges.AssemblyInfoInputs.cache
+C:\Users\Admin\Downloads\TelephoneCharges\obj\Debug\net7.0\TelephoneCharges.AssemblyInfo.cs
+C:\Users\Admin\Downloads\TelephoneCharges\obj\Debug\net7.0\TelephoneCharges.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Downloads\TelephoneCharges\obj\Debug\net7.0\TelephoneCharges.dll
+C:\Users\Admin\Downloads\TelephoneCharges\obj\Debug\net7.0\refint\TelephoneCharges.dll
+C:\Users\Admin\Downloads\TelephoneCharges\obj\Debug\net7.0\TelephoneCharges.pdb
+C:\Users\Admin\Downloads\TelephoneCharges\obj\Debug\net7.0\TelephoneCharges.genruntimeconfig.cache
+C:\Users\Admin\Downloads\TelephoneCharges\obj\Debug\net7.0\ref\TelephoneCharges.dll
