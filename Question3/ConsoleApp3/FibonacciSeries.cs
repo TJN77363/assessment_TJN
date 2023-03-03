@@ -1,20 +1,26 @@
-﻿using System;
+﻿
 namespace FibonacciSeries
 {
-    public class Program
+    public class FibonacciSeries
     {
+        static void MyMethod()
+        {            
+            const int terms = 20;
+            int firstNumber = 1, SecondNumber = 1, nextNumber;
+
+            Console.Write(firstNumber + " " + SecondNumber + " ");
+            for (int i = firstNumber; i < terms; i++)
+            {
+                nextNumber = firstNumber + SecondNumber;
+                Console.Write(nextNumber + " ");
+                firstNumber = SecondNumber;
+                SecondNumber = nextNumber;
+            }
+        }
+
         public static void Main()
         {
-            int firstNumber = 0, SecondNumber = 1, nextNumber, terms;
-            terms = 20;
-
-                for(int i = 2; i < terms; i++)
-                {
-                    nextNumber = firstNumber + SecondNumber;
-                    Console.Write(firstNumber + nextNumber + " ");
-                    firstNumber = SecondNumber;
-                    SecondNumber = nextNumber;
-                }
+            MyMethod();
         }
     }
 }
