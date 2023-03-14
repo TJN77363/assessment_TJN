@@ -1,0 +1,5 @@
+C:\Users\Admin\Downloads\Assessment_TJN\Question4\ConsoleApp1\obj\Debug\net7.0\ConsoleApp1.csproj.AssemblyReference.cache
+C:\Users\Admin\Downloads\Assessment_TJN\Question4\ConsoleApp1\obj\Debug\net7.0\ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Downloads\Assessment_TJN\Question4\ConsoleApp1\obj\Debug\net7.0\ConsoleApp1.AssemblyInfoInputs.cache
+C:\Users\Admin\Downloads\Assessment_TJN\Question4\ConsoleApp1\obj\Debug\net7.0\ConsoleApp1.AssemblyInfo.cs
+C:\Users\Admin\Downloads\Assessment_TJN\Question4\ConsoleApp1\obj\Debug\net7.0\ConsoleApp1.csproj.CoreCompileInputs.cache

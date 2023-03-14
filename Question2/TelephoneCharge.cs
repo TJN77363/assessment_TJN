@@ -25,12 +25,14 @@ namespace TelephoneCharge
                 SubsequentCharges = (NumberOfLocalCall - MaxLocalCall) * SubsequentCalls;
                 LocalCallTotalCharge = SubsequentCharges + LocalCallsCharges;
             }
+            Console.WriteLine("Total charge of local call:");
             Console.WriteLine("RM" + LocalCallTotalCharge);
         }
 
         public void CalculateOutstation()
         {
             OutstationCallTotalCharge = NumberOfOutstationCall * OutstationCallsCharges;
+            Console.WriteLine("Total charge of outstation call:");
             Console.WriteLine("RM" + OutstationCallTotalCharge);
         }
 
