@@ -1,6 +1,3 @@
-﻿SELECT trans.date_out, trans.trader_code, trader.trader_name, product.prod_code,
-SUM(trans.net_wt) AS total_wt
-FROM trans, trader, product where trans.trader_code = trader.trader_code
-AND trans.prod_code = product.prod_code
-GROUP BY trans.date_out
-GROUP By trader.trader_code;
+﻿SELECT trans.ticket_no, trans.date_out,product.prod_name, trader.trader name, trans.net_wt
+FROM trans, tarder, product where trans.prod_code = product.prod_name 
+AND trans.trader_code = trader.trader_name;
