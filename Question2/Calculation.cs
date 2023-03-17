@@ -1,7 +1,12 @@
-﻿
-namespace TelephoneCharge
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace TelephoneCharges
 {
-    public class TelephoneCharge
+    internal class Calculation
     {
         public const decimal LocalCallsCharges = 20.00m;
         public const int MaxLocalCall = 100;
@@ -16,45 +21,25 @@ namespace TelephoneCharge
 
         public void CalculateLocalCharge()
         {
-            if (NumberOfLocalCall <= MaxLocalCall) 
+            if (NumberOfLocalCall <= MaxLocalCall)
             {
                 LocalCallTotalCharge = LocalCallsCharges;
             }
-            if (NumberOfLocalCall > MaxLocalCall) 
+            if (NumberOfLocalCall > MaxLocalCall)
             {
                 SubsequentCharges = (NumberOfLocalCall - MaxLocalCall) * SubsequentCalls;
                 LocalCallTotalCharge = SubsequentCharges + LocalCallsCharges;
             }
-            Console.WriteLine("Total charge of local call:");
-            Console.WriteLine("RM" + LocalCallTotalCharge);
         }
 
         public void CalculateOutstation()
         {
             OutstationCallTotalCharge = NumberOfOutstationCall * OutstationCallsCharges;
-            Console.WriteLine("Total charge of outstation call:");
-            Console.WriteLine("RM" + OutstationCallTotalCharge);
         }
 
         public void GrandTotalCharge()
         {
             GrandTotalTelephoneCharge = LocalCallTotalCharge + OutstationCallTotalCharge;
-            Console.WriteLine("RM" + (GrandTotalTelephoneCharge));
-        }
-
-        static void Main()
-        {
-            TelephoneCharge telephoneCharge = new();
-            Console.WriteLine("The number of local calls: ");
-            telephoneCharge.NumberOfLocalCall = Convert.ToInt32(Console.ReadLine());
-            telephoneCharge.CalculateLocalCharge();
-
-            Console.WriteLine("The number of outstation calls: ");
-            telephoneCharge.NumberOfOutstationCall = Convert.ToInt32(Console.ReadLine());
-            telephoneCharge.CalculateOutstation();
-
-            Console.WriteLine("Grand total telephone charge: ");
-            telephoneCharge.GrandTotalCharge();
         }
     }
 }
